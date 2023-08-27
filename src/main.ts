@@ -8,13 +8,13 @@ import { bootstrapApplication } from '@angular/platform-browser';
   standalone: true,
   imports: [CommonModule],
   template: `
-  <main>
-  <header class="brand-name">
-    <img class="brand-logo" src="/assets/logo.svg" alt="logo" aria-hidden="true">
-  </header>
-  <section class="content">
-  </section>
-</main>
+<main>
+    <header class="brand-name">
+      <img class="brand-logo" src="/assets/logo.svg" alt="logo" aria-hidden="true">
+    </header>
+    <section class="content">
+    </section>
+  </main>
   `,
 })
 export class App {
